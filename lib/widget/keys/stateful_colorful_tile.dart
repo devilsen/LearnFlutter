@@ -9,7 +9,7 @@ class StatefulColorfulTile extends StatefulWidget {
 }
 
 class StatefulColorfulTileState extends State<StatefulColorfulTile> {
-  final Color defautlColor = UniqueColorGenerator().getColor();
+  final Color defaultColor = UniqueColorGenerator().getColor();
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class StatefulColorfulTileState extends State<StatefulColorfulTile> {
       height: 100,
       width: 100,
       child: Container(
-        color: defautlColor,
+        color: defaultColor,
       ),
     );
   }
